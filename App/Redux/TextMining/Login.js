@@ -17,7 +17,7 @@ export default Creators
 export const INITIAL_STATE = Immutable({
   fetching: 'false',
   error: '',
-  token: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhcmFzaGlzQGxpdmUuY29tIiwianRpIjoiNTA2MmI4OTItMjVlOS00NzQzLTg2ZGEtMGI0OGIxZTk3YThlIiwibmJmIjoxNTU1NDQwMDQ4LCJleHAiOjE1NTY2NDk2NDgsImlzcyI6IlRleHRNaW5pbmciLCJhdWQiOiJodHRwczovL2FwcC50ZXh0LW1pbmluZy5pciJ9.qceDIAmbhtU7iG5UWksffQh8gr0hqpntJPOrrhhxfEI',
   username: '',
   password: ''
 })
