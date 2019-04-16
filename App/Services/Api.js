@@ -2,7 +2,7 @@
 import apisauce from 'apisauce'
 
 // our "constructor"
-const create = (baseURL = 'https://api.github.com/') => {
+const create = (baseURL = 'https://app.text-mining.ir/api/') => {
   // ------
   // STEP 1
   // ------
@@ -36,7 +36,8 @@ const create = (baseURL = 'https://api.github.com/') => {
   //
   const getRoot = () => api.get('')
   const getRate = () => api.get('rate_limit')
-  const getUser = (username) => api.get('search/users', {q: username})
+  const refreshToken = (username) => api.get('search/users', { q: username })
+  const login = (email, password) => api.post('auth/login', { Email: email, Password: password })
 
   // ------
   // STEP 3
@@ -54,7 +55,8 @@ const create = (baseURL = 'https://api.github.com/') => {
     // a list of the API functions from step 2
     getRoot,
     getRate,
-    getUser
+    refreshToken,
+    login
   }
 }
 

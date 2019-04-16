@@ -4,7 +4,15 @@ import { Colors, Metrics } from '../../Themes/'
 export default StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: Metrics.navBarHeight,
     backgroundColor: Colors.background
-  }
+  },
+  textInputUser: {
+    color: Colors.frost,
+    textAlign: 'left'
+  },
+  textInputPassword: {
+    color: Colors.frost,
+    textAlign: 'left'
+  },
+  buttonLogin: {}
 })
