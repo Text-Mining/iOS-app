@@ -18,15 +18,15 @@ class LoginScreen extends Component {
       <ScrollView style={styles.container}>
         <Text style={styles.headerText}>ورود به سیستم</Text>
         <TextInput style={styles.textInputUser}
-                   onChangeText={(text) => this.setState({ email: text })}
-                   placeholder='Email'
-                   value={this.state.email}
+          onChangeText={(text) => this.setState({ email: text })}
+          placeholder='Email'
+          value={this.state.email}
 
         />
         <TextInput style={styles.textInputPassword}
-                   onChangeText={(text) => this.setState({ password: text })}
-                   placeholder='Password'
-                   value={this.state.password}
+          onChangeText={(text) => this.setState({ password: text })}
+          placeholder='Password'
+          value={this.state.password}
         />
         <Button block success style={styles.buttonLogin} onPress={this.login}>
           <Text>ورود</Text>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ScrollView, Text } from 'react-native'
+import { FlatList, ScrollView, Text } from 'react-native'
 import { connect } from 'react-redux'
 // Styles
 import styles from './Styles/HomePageStyle'
@@ -7,15 +7,37 @@ import styles from './Styles/HomePageStyle'
 // import YourActions from '../Redux/YourRedux'
 
 class HomePage extends Component {
-  // constructor (props) {
-  //   super(props)
-  //   this.state = {}
-  // }
+  constructor (props) {
+    super(props)
+
+    this.state = {}
+    console.log('before')
+    this.props.tag_request(this.state)
+    console.log('after')
+  }
+
+  words () {
+    if (this.props.tagsStore.payload) {
+      return (
+        <FlatList
+          data={this.props.tagsStore.payload.words}
+          renderItem={({ item }) => <Text>{item.Word}</Text>}
+        />
+
+      )
+    } else {
+      return (
+        <Text>
+          Empty
+        </Text>
+      )
+    }
+  }
 
   render () {
     return (
       <ScrollView style={styles.container}>
-        <Text>{this.props.loginStore.token}</Text>
+        {this.words()}
       </ScrollView>
     )
   }
@@ -31,9 +53,8 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-  console.log(this.state)
   return {
-    login: (state) => dispatch({ type: 'USER_REQUEST', email: state.email, password: state.password })
+    tag_request: () => dispatch({ type: 'TAGS_REQUEST' })
   }
 }
 

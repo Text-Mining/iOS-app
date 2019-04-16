@@ -12,6 +12,7 @@
 
 import { call, put } from 'redux-saga/effects'
 import TagsActions from '../../Redux/TextMining/TagsRedux'
+
 // import { TagsSelectors } from '../Redux/TagsRedux'
 
 export function * getTags (api, action) {
@@ -19,8 +20,8 @@ export function * getTags (api, action) {
   // get current data from Store
   // const currentData = yield select(TagsSelectors.getData)
   // make the call to the api
-  const response = yield call(api.gettags, data)
-
+  const response = yield call(api.random, data)
+  console.log(response)
   // success?
   if (response.ok) {
     // You might need to change the response here - do this with a 'transform',

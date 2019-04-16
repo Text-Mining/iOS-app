@@ -6,6 +6,8 @@ import { StartupTypes } from '../Redux/StartupRedux'
 import { startup } from './StartupSagas'
 import { LoginTypes } from '../Redux/TextMining/Login'
 import { login } from './TextMining/AuthSagas'
+import { TagsTypes } from '../Redux/TextMining/TagsRedux'
+import { getTags } from './TextMining/TagsSagas'
 
 /* ------------- Types ------------- */
 
@@ -23,6 +25,7 @@ export default function * root () {
   yield all([
     // some sagas only receive an action
     takeLatest(StartupTypes.STARTUP, startup),
+    takeLatest(TagsTypes.TAGS_REQUEST, getTags, api),
 
     // some sagas receive extra parameters in addition to an action
     takeLatest(LoginTypes.USER_REQUEST, login, api)

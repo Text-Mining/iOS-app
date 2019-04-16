@@ -1,5 +1,6 @@
 // a library to wrap and simplify api calls
 import apisauce from 'apisauce'
+import { INITIAL_STATE as Login } from '../Redux/TextMining/Login'
 
 // our "constructor"
 const create = (baseURL = 'https://app.text-mining.ir/api/') => {
@@ -14,10 +15,11 @@ const create = (baseURL = 'https://app.text-mining.ir/api/') => {
     baseURL,
     // here are some default headers
     headers: {
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-cache',
+      'authorization': 'bearer ' + Login.token
     },
-    // 10 second timeout...
-    timeout: 10000
+    // 5 second timeout...
+    timeout: 5000
   })
 
   // ------
@@ -39,6 +41,9 @@ const create = (baseURL = 'https://app.text-mining.ir/api/') => {
   const refreshToken = (username) => api.get('search/users', { q: username })
   const login = (email, password) => api.post('auth/login', { Email: email, Password: password })
 
+  // random sentence
+  const random = () => api.get('ner/GetRandomSentence', {})
+
   // ------
   // STEP 3
   // ------
@@ -56,7 +61,8 @@ const create = (baseURL = 'https://app.text-mining.ir/api/') => {
     getRoot,
     getRate,
     refreshToken,
-    login
+    login,
+    random
   }
 }
 
