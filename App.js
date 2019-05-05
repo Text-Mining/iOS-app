@@ -7,7 +7,11 @@
  */
 
 import React, { Component } from 'react'
-import { Platform, StyleSheet, Text, TextInput, View } from 'react-native'
+import { Button, Platform, StyleSheet, Text, TextInput, View } from 'react-native'
+import { loginCall } from './rest/LoginRest'
+import { TM_PASSWORD, TM_USERNAME } from './AppConfig'
+import { db_authentication } from './database/connection'
+import { getLastItem } from './tools'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -21,6 +25,34 @@ export default class App extends Component<Props> {
   state = {
     email: 'a@a.com',
     password: 'a@a.com',
+  }
+
+  componentDidMount (): void {
+    this.setState({
+      email: TM_USERNAME,
+      password: TM_PASSWORD
+    })
+    this.login = this.login.bind(this)
+
+    db_authentication.find({}, function (err, docs) {
+      if (docs.length) {
+        token = getLastItem(docs).token
+      }
+    })
+
+  }
+
+  login () {
+    loginCall(this.state.email, this.state.password).then((data) => {
+      db_authentication.insert({ token: data.data.token }, function (err, newDoc) {   // Callback is optional
+        // newDoc is the newly inserted document, including its _id
+        // newDoc has no key called notToBeSaved since its value was undefined
+        alert('done')
+      })
+
+    }).catch(() => {
+
+    })
   }
 
   render () {
@@ -37,6 +69,14 @@ export default class App extends Component<Props> {
           onChangeText={(text) => this.setState({ password: text })}
           value={this.state.password}
         />
+
+        <Button
+          onPress={this.login}
+          title="Learn More"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+
 
       </View>
     )

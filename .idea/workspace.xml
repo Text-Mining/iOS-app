@@ -2,218 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2609ef8f-71df-45e5-92a3-48aa189eaae7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.buckconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/Config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/LoginRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/AlertMessage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/AlertMessage.story.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/DrawerButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/DrawerButton.story.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/FullButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/FullButton.story.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/RoundedButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/RoundedButton.story.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/AlertMessageStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/DrawerButtonStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/FullButtonStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Components/Styles/RoundedButtonStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/AppConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/DebugConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/ReactotronConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/ReduxPersist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/LaunchScreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/LoginScreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/RootContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/HomePageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/LaunchScreenStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/LoginScreenStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Containers/Styles/RootContainerStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/gantman.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/rateLimit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/root.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Fixtures/skellock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/I18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/af.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/am.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/bg.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/cs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/el.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/english.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/et.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/fi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/fil.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/fr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/he.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/hi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/hr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/hu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/id.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/it.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ja.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ko.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/lt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/lv.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/nb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/nl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/no.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/pl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/pt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ro.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/sk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/sl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/sr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/sv.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/sw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/th.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/tr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/uk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/vi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/zh.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/languages/zu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/I18n/platform_languages.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/back-button@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/chevron-right@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/close-button@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/faq-icon@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/hamburger@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-api-testing@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-components@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-device-information@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-home@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-theme@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/Icons/icon-usage-examples@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/button-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/ignite-logo-transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/ignite_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/ir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/launch-icon@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/tile_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/top_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/top_logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/top_logo@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/your-app.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/your-app@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Images/your-app@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Lib/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/AppNavigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/ReduxNavigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Navigation/Styles/NavigationStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/CreateStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/GithubRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/NavigationRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/ScreenTrackingMiddleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/SearchRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/StartupRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/TextMining/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/TextMining/TagsRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Redux/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/GithubSagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/StartupSagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/TextMining/AuthSagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/TextMining/TagsSagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Sagas/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/Api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/ExamplesRegistry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/FixtureApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/ImmutablePersistenceTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Services/Rehydration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/ApplicationStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Fonts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Images.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/Metrics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Themes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Transforms/ConvertFromKelvin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Transforms/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Components/AlertMessageTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Components/DrawerButtonTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Components/FullButtonTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Components/RoundedButtonTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Redux/GithubReduxTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Sagas/GithubSagaTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Sagas/StartupSagaTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Services/FixtureAPITest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/StoriesTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/BUCK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/textmining/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/textmining/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/textmining/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/textmining/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/animatableExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/i18nExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Components/vectorExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Containers/ignite-andross/GridExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Containers/ignite-andross/GridExampleStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Containers/ignite-andross/RowExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Containers/ignite-andross/RowExampleStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Containers/ignite-andross/SectionExample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/Examples/Containers/ignite-andross/SectionExampleStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/ignite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ignite/plugins/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/TextMining.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/TextMining.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/TextMining/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/TextMining/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/TextMining/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/TextMining/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/TextMining/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/TextMining/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/TextMining/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/TextMining/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/TextMiningTests/TextMiningTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/TextMiningTests/TextMiningTests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook/addons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook/storybook.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -227,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="173">
+              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
                 <element signature="e#103#143#0" expanded="true" />
               </folding>
@@ -239,16 +39,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/connection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/LoginRest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/Config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -288,8 +131,13 @@
         <option value="$PROJECT_DIR$/App/Containers/AboutScreen.js" />
         <option value="$PROJECT_DIR$/App/Navigation/AppNavigation.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/rest/Config.js" />
+        <option value="$PROJECT_DIR$/rest/LoginRest.js" />
+        <option value="$PROJECT_DIR$/AppConfig.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/database/connection.js" />
+        <option value="$PROJECT_DIR$/tools.js" />
+        <option value="$PROJECT_DIR$/App.js" />
       </list>
     </option>
   </component>
@@ -319,11 +167,6 @@
             <path>
               <item name="TextMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="TextMining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TextMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TextMining" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +218,7 @@
     <frame x="0" y="23" width="1280" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -390,7 +233,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16056338" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3746479" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -671,20 +514,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/rest/Config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="e#103#143#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/LoginRest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="8408" column="14" lean-forward="true" selection-start-line="8408" selection-start-column="14" selection-end-line="8408" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="e#103#143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
