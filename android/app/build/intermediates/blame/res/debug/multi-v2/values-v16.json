@@ -4,7 +4,7 @@
             "outputFile": "/Users/arashrasoulzadeh/Dropbox/reactnative/TextMining-Ios/TextMining/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/arashrasoulzadeh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/cde7936d62032481a23ae442ded5b889/res/values-v16/values-v16.xml",
+                    "source": "/Users/arashrasoulzadeh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0c0a41feea9101342a71565e57324106/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/arashrasoulzadeh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/44abf8f3f5f97fe0decb5f4a200b57bb/res/values-v16/values-v16.xml",
+                    "source": "/Users/arashrasoulzadeh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a1a37bb2db65546237ca4140946bf493/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

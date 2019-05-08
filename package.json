@@ -9,8 +9,12 @@
   "dependencies": {
     "apisauce": "^1.0.2",
     "react": "16.8.3",
-    "react-native": "0.59.5",
+    "react-native": "^0.59.8",
+    "react-native-gesture-handler": "^1.2.1",
     "react-native-local-mongodb": "^2.2.9",
+    "react-native-tag-select": "^2.0.0",
+    "react-navigation": "^3.9.1",
+    "realm": "^2.26.1",
     "standard": "^12.0.1"
   },
   "devDependencies": {

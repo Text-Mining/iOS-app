@@ -10,8 +10,7 @@ import React, { Component } from 'react'
 import { Button, Platform, StyleSheet, Text, TextInput, View } from 'react-native'
 import { loginCall } from './rest/LoginRest'
 import { TM_PASSWORD, TM_USERNAME } from './AppConfig'
-import { db_authentication } from './database/connection'
-import { getLastItem } from './tools'
+import { getLoginService, getToken } from './database/services/LoginService'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -33,23 +32,30 @@ export default class App extends Component<Props> {
       password: TM_PASSWORD
     })
     this.login = this.login.bind(this)
-
-    db_authentication.find({}, function (err, docs) {
-      if (docs.length) {
-        token = getLastItem(docs).token
+    this.logedIn = this.logedIn.bind(this)
+    getLoginService().then((realm) => {
+      if (realm.objects('LoginModel').length) {
+        let Length = realm.objects('LoginModel').length
+        let lastItem = realm.objects('LoginModel')[Length-1].token
+        this.logedIn()
       }
     })
+  }
 
+  logedIn () {
+    this.props.navigation.navigate('Home')
   }
 
   login () {
     loginCall(this.state.email, this.state.password).then((data) => {
-      db_authentication.insert({ token: data.data.token }, function (err, newDoc) {   // Callback is optional
-        // newDoc is the newly inserted document, including its _id
-        // newDoc has no key called notToBeSaved since its value was undefined
-        alert('done')
+      getLoginService().then((realm) => {
+        realm.write(() => {
+          realm.create('LoginModel', {
+            token: data.data.token
+          })
+          alert('welcome')
+        })
       })
-
     }).catch(() => {
 
     })

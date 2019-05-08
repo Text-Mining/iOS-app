@@ -7,4 +7,5 @@ export function loginCall (email, password) {
       Email: email,
       Password: password
     })
+
 }
