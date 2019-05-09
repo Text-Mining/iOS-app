@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * Sample React Native Login
  * https://github.com/facebook/react-native
  *
  * @format
@@ -20,7 +20,7 @@ const instructions = Platform.select({
 })
 
 type Props = {};
-export default class App extends Component<Props> {
+export default class Login extends Component<Props> {
   state = {
     email: 'a@a.com',
     password: 'a@a.com',
