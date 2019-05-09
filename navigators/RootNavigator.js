@@ -1,15 +1,14 @@
 import React from 'react'
 import { createAppContainer, createStackNavigator } from 'react-navigation'
-import App from '../App'
-import { HomeScreen } from '../pages/Home'
+import PageNavigator from './PageNavigator'
 
-const AppNavigator = createStackNavigator({
-  Login: {
-    screen: App
-  },
-  Home: {
-    screen: HomeScreen
+const RootNavigator = createStackNavigator({
+  PageNavigator: {
+    screen: PageNavigator
   }
+}, {
+  headerMode: 'none',
+  initialRouteName: 'DrawerStack'
 })
 
-export default createAppContainer(AppNavigator)
+export default createAppContainer(RootNavigator)

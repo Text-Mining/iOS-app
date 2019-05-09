@@ -1,4 +1,4 @@
-#Wed May 08 22:57:10 IRDT 2019
+#Fri May 10 00:12:13 IRDT 2019
 base.0=/Users/arashrasoulzadeh/Dropbox/reactnative/TextMining-Ios/TextMining/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

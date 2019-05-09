@@ -4,6 +4,6 @@
 
 import { AppRegistry } from 'react-native'
 import { name as appName } from './app.json'
-import RootNavigator from './navigators/RootNavigator'
+import DrawerNavigator from './navigators/DrawerNavigator'
 
-AppRegistry.registerComponent(appName, () => RootNavigator)
+AppRegistry.registerComponent(appName, () => DrawerNavigator)

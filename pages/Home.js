@@ -1,11 +1,15 @@
 import React from 'react'
-import { Alert, View } from 'react-native'
+import { View } from 'react-native'
 import { getLoginService } from '../database/services/LoginService'
 import { GetRandomSentence } from '../rest/GetRandomSentence'
 import { getRandomSentenceService } from '../database/services/RandomSentenceService'
 import { TagSelect } from 'react-native-tag-select'
+import {DrawerActions} from 'react-navigation'
 
 export class HomeScreen extends React.Component {
+  static navigationOptions = {
+    drawerLabel: 'Home',
+  }
   state = {
     token: '',
     items: []
@@ -28,6 +32,7 @@ export class HomeScreen extends React.Component {
     getRandomSentenceService().then((realm) => {
       this.draw(realm)
     })
+
   }
 
   init () {
